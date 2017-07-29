@@ -1,0 +1,20 @@
+create table TABLE_ITEMS (ItemID INTEGER PRIMARY KEY AUTOINCREMENT, Name TEXT NOT NULL, UnitPrice INT NOT NULL, IsHidden INT NOT NULL);
+
+INSERT INTO TABLE_ITEMS (Name, UnitPrice, IsHidden) VALUES ('Coffee', 10, 0);
+INSERT INTO TABLE_ITEMS (Name, UnitPrice, IsHidden) VALUES ('Tea', 8, 0);
+INSERT INTO TABLE_ITEMS (Name, UnitPrice, IsHidden) VALUES ('Black Tea', 5, 0);
+INSERT INTO TABLE_ITEMS (Name, UnitPrice, IsHidden) VALUES ('Boost', 10, 0);
+INSERT INTO TABLE_ITEMS (Name, UnitPrice, IsHidden) VALUES ('Horlicks', 10, 0);
+INSERT INTO TABLE_ITEMS (Name, UnitPrice, IsHidden) VALUES ('Cake', 10, 0);
+INSERT INTO TABLE_ITEMS (Name, UnitPrice, IsHidden) VALUES ('Puffs', 12, 0);
+INSERT INTO TABLE_ITEMS (Name, UnitPrice, IsHidden) VALUES ('Vada', 8, 0);
+INSERT INTO TABLE_ITEMS (Name, UnitPrice, IsHidden) VALUES ('Ada', 7, 0);
+INSERT INTO TABLE_ITEMS (Name, UnitPrice, IsHidden) VALUES ('Pazham', 10, 0);
+INSERT INTO TABLE_ITEMS (Name, UnitPrice, IsHidden) VALUES ('Biscut', 5, 0);
+INSERT INTO TABLE_ITEMS (Name, UnitPrice, IsHidden) VALUES ('Sweet Roll', 10, 0);
+INSERT INTO TABLE_ITEMS (Name, UnitPrice, IsHidden) VALUES ('Madal', 10, 0);
+INSERT INTO TABLE_ITEMS (Name, UnitPrice, IsHidden) VALUES ('Bun', 5, 0);
+INSERT INTO TABLE_ITEMS (Name, UnitPrice, IsHidden) VALUES ('Brown Bun', 10, 0);
+INSERT INTO TABLE_ITEMS (Name, UnitPrice, IsHidden) VALUES ('Lime', 10, 0);
+
+
