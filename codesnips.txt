@@ -1,4 +1,4 @@
-create table TABLE_ITEMS (ItemID INTEGER PRIMARY KEY AUTOINCREMENT, Name TEXT NOT NULL, UnitPrice INT NOT NULL, IsHidden INT NOT NULL);
+CREATE TABLE TABLE_ITEMS (ItemID INTEGER PRIMARY KEY AUTOINCREMENT, Name TEXT NOT NULL, UnitPrice INT NOT NULL, IsHidden INT NOT NULL);
 
 INSERT INTO TABLE_ITEMS (Name, UnitPrice, IsHidden) VALUES ('Coffee', 10, 0);
 INSERT INTO TABLE_ITEMS (Name, UnitPrice, IsHidden) VALUES ('Tea', 8, 0);
@@ -18,3 +18,27 @@ INSERT INTO TABLE_ITEMS (Name, UnitPrice, IsHidden) VALUES ('Brown Bun', 10, 0);
 INSERT INTO TABLE_ITEMS (Name, UnitPrice, IsHidden) VALUES ('Lime', 10, 0);
 
 
+
+
+"CREATE TABLE "+TABLE_ITEMS+" ("+ITEMS_COL_ItemId+" INTEGER PRIMARY KEY AUTOINCREMENT, "+ITEMS_COL_Name+" TEXT NOT NULL, "+ITEMS_COL_UnitPrice+" INT NOT NULL, "+ITEMS_COL_IsHidden+" INT NOT NULL);"
+
+"INSERT INTO "+TABLE_ITEMS+" ("+ITEMS_COL_Name+", "+ITEMS_COL_UnitPrice+", "+ITEMS_COL_IsHidden+") VALUES ('Coffee', 10, 0);"+
+"INSERT INTO "+TABLE_ITEMS+" ("+ITEMS_COL_Name+", "+ITEMS_COL_UnitPrice+", "+ITEMS_COL_IsHidden+") VALUES ('Tea', 8, 0);"+
+"INSERT INTO "+TABLE_ITEMS+" ("+ITEMS_COL_Name+", "+ITEMS_COL_UnitPrice+", "+ITEMS_COL_IsHidden+") VALUES ('Black Tea', 5, 0);"+
+"INSERT INTO "+TABLE_ITEMS+" ("+ITEMS_COL_Name+", "+ITEMS_COL_UnitPrice+", "+ITEMS_COL_IsHidden+") VALUES ('Boost', 10, 0);"+
+"INSERT INTO "+TABLE_ITEMS+" ("+ITEMS_COL_Name+", "+ITEMS_COL_UnitPrice+", "+ITEMS_COL_IsHidden+") VALUES ('Horlicks', 10, 0);"+
+"INSERT INTO "+TABLE_ITEMS+" ("+ITEMS_COL_Name+", "+ITEMS_COL_UnitPrice+", "+ITEMS_COL_IsHidden+") VALUES ('Cake', 10, 0);"+
+"INSERT INTO "+TABLE_ITEMS+" ("+ITEMS_COL_Name+", "+ITEMS_COL_UnitPrice+", "+ITEMS_COL_IsHidden+") VALUES ('Puffs', 12, 0);"+
+"INSERT INTO "+TABLE_ITEMS+" ("+ITEMS_COL_Name+", "+ITEMS_COL_UnitPrice+", "+ITEMS_COL_IsHidden+") VALUES ('Vada', 8, 0);"+
+"INSERT INTO "+TABLE_ITEMS+" ("+ITEMS_COL_Name+", "+ITEMS_COL_UnitPrice+", "+ITEMS_COL_IsHidden+") VALUES ('Ada', 7, 0);"+
+"INSERT INTO "+TABLE_ITEMS+" ("+ITEMS_COL_Name+", "+ITEMS_COL_UnitPrice+", "+ITEMS_COL_IsHidden+") VALUES ('Pazham', 10, 0);"+
+"INSERT INTO "+TABLE_ITEMS+" ("+ITEMS_COL_Name+", "+ITEMS_COL_UnitPrice+", "+ITEMS_COL_IsHidden+") VALUES ('Biscut', 5, 0);"+
+"INSERT INTO "+TABLE_ITEMS+" ("+ITEMS_COL_Name+", "+ITEMS_COL_UnitPrice+", "+ITEMS_COL_IsHidden+") VALUES ('Sweet Roll', 10, 0);"+
+"INSERT INTO "+TABLE_ITEMS+" ("+ITEMS_COL_Name+", "+ITEMS_COL_UnitPrice+", "+ITEMS_COL_IsHidden+") VALUES ('Madal', 10, 0);"+
+"INSERT INTO "+TABLE_ITEMS+" ("+ITEMS_COL_Name+", "+ITEMS_COL_UnitPrice+", "+ITEMS_COL_IsHidden+") VALUES ('Bun', 5, 0);"+
+"INSERT INTO "+TABLE_ITEMS+" ("+ITEMS_COL_Name+", "+ITEMS_COL_UnitPrice+", "+ITEMS_COL_IsHidden+") VALUES ('Brown Bun', 10, 0);"+
+"INSERT INTO "+TABLE_ITEMS+" ("+ITEMS_COL_Name+", "+ITEMS_COL_UnitPrice+", "+ITEMS_COL_IsHidden+") VALUES ('Lime', 10, 0);"+
+
+
+single line INSERT
+"INSERT INTO "+TABLE_ITEMS+" ("+ITEMS_COL_Name+", "+ITEMS_COL_UnitPrice+", "+ITEMS_COL_IsHidden+") VALUES ('Coffee', 10, 0),('Tea', 8, 0),('Black Tea', 5, 0),('Boost', 10, 0),('Horlicks', 10, 0),('Cake', 10, 0),('Puffs', 12, 0),('Vada', 8, 0),('Ada', 7, 0),('Pazham', 10, 0),('Biscut', 5, 0),('Sweet Roll', 10, 0),('Madal', 10, 0),('Bun', 5, 0),('Brown Bun', 10, 0),('Lime', 10, 0)"
